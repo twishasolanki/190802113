@@ -1,8 +1,0 @@
-E:\190802113-asp\PROJECT\PROJECT\bin\PROJECT.dll
-E:\190802113-asp\PROJECT\PROJECT\bin\PROJECT.pdb
-E:\190802113-asp\PROJECT\PROJECT\obj\Debug\PROJECT.dll
-E:\190802113-asp\PROJECT\PROJECT\obj\Debug\PROJECT.pdb
-E:\New folder\PROJECT\bin\PROJECT.dll
-E:\New folder\PROJECT\bin\PROJECT.pdb
-E:\New folder\PROJECT\obj\Debug\PROJECT.dll
-E:\New folder\PROJECT\obj\Debug\PROJECT.pdb
