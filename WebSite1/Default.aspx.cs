@@ -45,15 +45,15 @@ public partial class _Default : System.Web.UI.Page
             if (s == 1)
             {
                 TextBox1.Text = string.Empty;
-                TextBox1.Text = string.Empty;
-                TextBox1.Text = string.Empty;
+                TextBox2.Text = string.Empty;
+                TextBox3.Text = string.Empty;
                 Literal1.Text = "user inserted succesfully";
             }
             else
             {
                 TextBox1.Text = string.Empty;
-                TextBox1.Text = string.Empty;
-                TextBox1.Text = string.Empty;
+                TextBox2.Text = string.Empty;
+                TextBox3.Text = string.Empty;
                 Literal1.Text = "Error!";
             }
         }
