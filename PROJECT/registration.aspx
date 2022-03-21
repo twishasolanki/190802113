@@ -35,9 +35,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			
         <asp:TextBox ID="TextBox2" runat="server" class="ggg" placeholder="E-MAIL" ></asp:TextBox>
 			
-        <asp:TextBox ID="TextBox3" runat="server" class="ggg" placeholder="PHONE"></asp:TextBox>
-			
-        <asp:TextBox ID="TextBox4" runat="server" class="ggg" placeholder="PASSWORD" ></asp:TextBox>
+        <asp:TextBox ID="TextBox4" runat="server" class="ggg" placeholder="PASSWORD" 
+            ontextchanged="TextBox4_TextChanged" ></asp:TextBox>
 			<h4><input type="checkbox" />I agree to the Terms of Service and Privacy Policy</h4>
 			
 				<div class="clearfix"></div>
@@ -45,7 +44,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <asp:Literal ID="Literal1" runat="server"></asp:Literal>		
         <asp:Button ID="Button1" runat="server" Text="submit" onclick="Button1_Click" />
 		</form>
-		<p>Already Registered.<a href="login.html">Login</a></p>
+		<p>Already Registered.<a href="LOGIN.aspx">Login</a></p>
 </div>
 </div>
 <script src="src/js/bootstrap.js"></script>

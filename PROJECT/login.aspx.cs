@@ -30,6 +30,7 @@ public partial class LOGIN : System.Web.UI.Page
             cmd.Parameters.AddWithValue("@password", TextBox2.Text.Trim());
             con.Open();
             int s = (int)cmd.ExecuteScalar();
+            con.Close();
             if (s == 1)
             {
                 Session["email"] = TextBox1.Text;
@@ -43,7 +44,7 @@ public partial class LOGIN : System.Web.UI.Page
                 TextBox2.Text = string.Empty;
                 Literal1.Text = "Email and Password are invalid!";
             }
-            con.Close();
+           
         }
         catch (SqlException ex)
         {

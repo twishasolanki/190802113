@@ -28,7 +28,7 @@ public partial class REGISTRATION : System.Web.UI.Page
         SqlCommand cmd = new SqlCommand("INSERT INTO [users] ([fullname], [email], [password]) VALUES (@fullname, @email, @password)",con);
         cmd.Parameters.AddWithValue("@fullname", TextBox1.Text.Trim());
         cmd.Parameters.AddWithValue("@email", TextBox2.Text.Trim());
-        cmd.Parameters.AddWithValue("@password", TextBox3.Text.Trim());
+        cmd.Parameters.AddWithValue("@password", TextBox4.Text.Trim());
         con.Open();
         int s = cmd.ExecuteNonQuery();
         con.Close();
@@ -36,15 +36,19 @@ public partial class REGISTRATION : System.Web.UI.Page
         {
             TextBox1.Text = string.Empty;
             TextBox2.Text = string.Empty;
-            TextBox3.Text = string.Empty;
+            TextBox4.Text = string.Empty;
             Literal1.Text = "Registration successfully";
         }
         else
         {
             TextBox1.Text = string.Empty;
             TextBox2.Text = string.Empty;
-            TextBox3.Text = string.Empty;
+            TextBox4.Text = string.Empty;
             Literal1.Text = "Error!";
         }
+    }
+    protected void TextBox4_TextChanged(object sender, EventArgs e)
+    {
+
     }
 }
